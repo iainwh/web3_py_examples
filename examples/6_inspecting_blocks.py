@@ -1,7 +1,7 @@
 from web3 import Web3
 
 # Fill in your infura API key here
-infura_url = "https://mainnet.infura.io/v3/YOUR_INFURA_API_KEY_GOES_HERE"
+infura_url = "https://mainnet.infura.io/v3/a724432af2964ead8717807bbc3a5656"
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # get latest block number
